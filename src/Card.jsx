@@ -7,6 +7,9 @@ import {
   Avatar,
   Button,
   Badge,
+  Grid,
+  GridItem,
+  SimpleGrid,
   useColorModeValue,
 } from '@chakra-ui/react';
 
@@ -19,11 +22,15 @@ export default function Card(props) {
     const auth_img=props.auth_img;
     const link=props.link;
     const linkGH=props.linkGH;
+    var tags=props.tags;
+    var tag=tags.split(",");
+    const bgcol = useColorModeValue('gray.50', 'gray.800');
   return (
     
     <Center py={6}>
       <Box
-        maxW={'445px'}
+        maxW={'375px'}
+        minW={'300px'}
         w={'full'}
         bg={useColorModeValue('white', 'gray.900')}
         boxShadow={'2xl'}
@@ -62,27 +69,21 @@ export default function Card(props) {
           </Text>
         </Stack>
            <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
-            <Badge
-              px={2}
-              py={1}
-              bg={useColorModeValue('gray.50', 'gray.800')}
-              fontWeight={'400'}>
-              #art
-            </Badge>
-            <Badge
-              px={2}
-              py={1}
-              bg={useColorModeValue('gray.50', 'gray.800')}
-              fontWeight={'400'}>
-              #photography
-            </Badge>
-            <Badge
-              px={2}
-              py={1}
-              bg={useColorModeValue('gray.50', 'gray.800')}
-              fontWeight={'400'}>
-              #music
-            </Badge>
+           <SimpleGrid columns={[2,2, 2, 3]} spacing={"1rem"}>
+
+          {
+            tag.map((res)=>(
+              (res==="")?null:
+                  <Badge
+                    px={2}
+                    py={1}
+                    bg={bgcol}
+                    fontWeight={'400'}>
+                    #{res}
+                  </Badge>
+            ))
+          }
+          </SimpleGrid>
           </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
           <Avatar

@@ -10,7 +10,7 @@ import {
   Heading,
   theme,
 } from '@chakra-ui/react';
-import Myimage from "./img6.jpg" // to be decided
+import Myimage from "./img1.jpg" // to be decided
 function App() {
   return (
     <ChakraProvider theme={theme}>

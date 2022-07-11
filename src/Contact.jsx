@@ -9,6 +9,7 @@ import {
     IconButton,
     Input,
     InputGroup,
+    Text,
     InputLeftElement,
     Link,
     Stack,
@@ -63,8 +64,14 @@ import {
                   base: '4xl',
                   md: '5xl',
                 }}>
-                <code>Get in Touch</code>
+                <code>&lt;Get in Touch/&gt;</code>
               </Heading>
+              <Text px={["2rem","5rem"]} fontSize={["large","xl","2xl"]} >
+                I'm seeking out opportunities to collaborate with companies / agencies / individuals, 
+                not just to work for them. I want to bring my experience to the table where we can work together to
+                solve real problems in a way that optimizes all of our respective experience and knowledge.
+                <br/><br/>Feel free to reach out through any platforms below:
+              </Text>
   
               <Stack
                 spacing={{ base: 4, md: 8, lg: 20 }}

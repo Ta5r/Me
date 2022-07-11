@@ -4,17 +4,11 @@ import {
     Center,
     ChakraProvider,
     theme,
-    Text,
     Button,
     Stack,
     Heading,
-    // Avatar,
-    // useColorModeValue,
-    // Image,
     Flex,
-    Grid,
     SimpleGrid,
-    GridItem,
   } from '@chakra-ui/react';
 import Card from './Card';
 import { FaGithub } from 'react-icons/fa';
@@ -25,17 +19,25 @@ const Projects = () => {
   return (
     <ChakraProvider theme={theme} >
     <hr/>
-    <Box p={"5rem"}>
+    <Box p={"2rem"}>
 
-    <Stack direction={{ base: 'column', md: 'row' }} pb={"5rem"} w={"full"}>
+    <Stack direction={{ base: 'column', md: 'row' }} w={"full"}>
     <Flex p={3} flex={1} align={'center'} justify={'center'}>
 
-    <Heading fontWeight={"bold"} fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-        My Recent works
+    <Heading
+                fontSize={{
+                  base: '3xl',
+                  md: '4xl',
+                }}>
+          <code>
+       &lt;My Recent works/&gt;
+        </code>
+        <br/>
+        <br/>
     </Heading>
     </Flex>
     </Stack>
-    <SimpleGrid columns={[1,1,2,3]} spacingY="4rem" spacingX={"2rem"}>
+    <SimpleGrid columns={[1,1,2,3,4]} spacingX={"1rem"}>
     {
         works.map((res)=>(
             <Card 
@@ -46,14 +48,14 @@ const Projects = () => {
                 auth_name={res["auth_name"]}
                  auth_img={res["auth_img"]}
                   link={res["link"]}
+                  tags={res["tags"]}
                    linkGH={res["linkGH"]} />
         ))
     }
     </SimpleGrid>
-    <Center pt={"4rem"}>
-
+    <Center pt={"2rem"}>
         <Button display={"flex"} flexDirection={"row"}>
-            Know more on my GitHub 
+        &lt;Know more on my GitHub /&gt;
             <Box pl={"0.75rem"} fontSize={"xl"}>
             <FaGithub/>
             </Box>
