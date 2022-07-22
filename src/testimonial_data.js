@@ -1,6 +1,6 @@
 const testimonial_data = [
   {
-    heading: 'Heading XYZ',
+    heading: 'He always seeks to learn new things and enhance his skills.',
     text: 'I have worked with Tanay in 2-3 projects and must say he is quite persistent in his work. He always seeks to learn new things and enhance his skills. I wish him good luck for his future endeavors!',
     img: 'https://avatars.githubusercontent.com/u/24389474?v=4',
     name: 'Kartik Goel',
