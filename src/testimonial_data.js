@@ -8,8 +8,8 @@ const testimonial_data = [
     link: 'https://github.com/kg-kartik/kg-kartik',
   },
   {
-    heading: 'Heading XYZ',
-    text: 'vhb bhbvb vv fn vldfv dfbv jkv  v bhd v vnv va b vhj    nasvhv dhv dhv j bvd jh  v',
+    heading: ' I would highly recommend Tanay.',
+    text: 'I would highly recommend Tanay. He is great to work with. Never misses any deadline and tries to do more in less time.',
     img: 'https://avatars.githubusercontent.com/u/26283488?v=4',
     name: 'Manavendra Sen',
     title: 'Full Stack Web Developer',
@@ -24,8 +24,8 @@ const testimonial_data = [
     link: 'https://github.com/d1vshar',
   },
   {
-    heading: 'Heading XYZ',
-    text: 'vhb bhbvb vv fn vldfv dfbv jkv  v bhd v vnv va b vhj    nasvhv dhv dhv j bvd jh  v',
+    heading: 'Wish to work with you more',
+    text: 'Tanay has been an amazing project partner, I came to learn new things while working with him. He supports his project partners a lot.',
     img: 'https://avatars.githubusercontent.com/u/74676333?v=4',
     name: 'Taruni Patel',
     title: 'Web Developer',
