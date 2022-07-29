@@ -83,6 +83,20 @@ const works = [
     status: 'completed',
     date: 'Jan 16, 2022',
   },
+  {
+    image:
+      'https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    type: 'Project',
+    title: 'Troy',
+    desc: 'A webapp created to add and manage contacts and their data like images and more.It reminds you of important events related to these contacts and many more exciting features.',
+    auth_name: 'Tanay Srivastava',
+    auth_img: 'https://avatars.githubusercontent.com/u/62954323?v=4',
+    link: '',
+    linkGH: 'https://github.com/Ta5r/TroyETE',
+    tags: 'PHP,MySQL,Bootstrap',
+    status: 'completed',
+    date: 'May 24, 2021',
+  },
 ];
 
 export default works;
