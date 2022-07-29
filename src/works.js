@@ -69,6 +69,20 @@ const works = [
     status: 'completed',
     date: 'Jan 08, 2021',
   },
+  {
+    image:
+      'https://lh3.googleusercontent.com/dISES51IHB8i5rggZDYdT2biVQFElPZjKqSG6mQ9_ZTxuc6W57RQXR1xf5p9WtGuXeYpIPDNkaMBV818o3nXhpELAjvv_sAsxI7o6ir0cfOlHHkjguYRikSrQeL9BwOJ1WeMARuHH2uZ23WOpT4EiAO32xiHoSFO1tWVankVHhX1RVAmpbMIiCvWFkYwBH8oK-jN5Panv2gimp41XuMwQlNxbAXMy0FBYF95tgcdlmiOMAVgIXHBcnIHIZoIzwVX-u3LfNNMVIgeSkp3fa3LnfQ2wJjopcRBaZcXIMQXiIM3q7yQZJpnkCHKAVsVamrtOwu_1y7xMWQsvqHwm8CdujuZWzU6KdMucVdV1NmdAvz_DStnTlu2CSWTYkb9vM8LS8fc0l9h9zCAYZ5-Skbt4hEdOuS5lCiR6ccPeXsEzY950vWQMLa4CJkRlS2Ky9UiPMX3yIxpvDihr3Pp-sszjHcq7wJ-fNHf3o_Grnam37FUaShTGTzGEJIZ-4u00Y1BdEkimUqi_lvBuZMqWewkhO1f5Ba0GDmuXxPrpA0Q10hYYJzX23_Cm_AEw2KsYVBznU01pUILf-IwZWOLi3i723QgehplJyylA6T9YT91W6DnFapiCwCT-O9e4Dvow4fd9HV0fMmRPv86kNNk3OI1hdg_dpCFSG2r041FVpsh4v56UI75gjzBj_h3QMIZ4AtRvIv5dMl9SAuip0P2qU7CE8yswz2xKWoUSDB80E0tuAo7U4KHCx7Tbgvy2IPmVz2nZ5T_tpBf1RauOSxlsv1mVm_82mruhbZFyYZRsCnG8_wP6tAeQp6TRWUPbqItgK1CbdDbeKOIjQafs6AWEt8dI2dx0CKx0ymuCqSsvl9AaZaVN9B2K_F8J6UzWdwN5VilCTjyvOMUY8wsaaw30uDjCWPpow8OxF6L-JreN3lL6X3BAzM=w1205-h666-no?authuser=1',
+    type: 'Project',
+    title: 'Pokedex',
+    desc: 'A webapp created to catalog information regarding the various species of Pokémon featured in the Pokémon video game, anime and manga series.',
+    auth_name: 'Tanay Srivastava',
+    auth_img: 'https://avatars.githubusercontent.com/u/62954323?v=4',
+    link: '',
+    linkGH: 'https://github.com/Ta5r/pokedex',
+    tags: 'HTML,JavaScript,CSS',
+    status: 'completed',
+    date: 'Jan 16, 2022',
+  },
 ];
 
 export default works;
