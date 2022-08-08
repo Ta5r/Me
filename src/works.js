@@ -15,6 +15,20 @@ const works = [
   },
   {
     image:
+      'https://drive.google.com/file/d/11NcpFgPse1Ied33ztVGXydAdaVY8NzWi/preview',
+    type: 'Project',
+    title: 'GENESIS',
+    desc: 'A website for the annual Tech Fest of IEEE MUJ. Genesis is the largest tech fest of Manipal University Jaipur.',
+    auth_name: 'Tanay Srivastava',
+    auth_img: 'https://avatars.githubusercontent.com/u/62954323?v=4',
+    link: 'https://genisys.vercel.app/',
+    linkGH: 'https://github.com/Ta5r/Genisys',
+    tags: 'NextJS,React,ChakraUI',
+    status: 'ongoing',
+    date: 'Aug 04, 2022',
+  },
+  {
+    image:
       'https://drscdn.500px.org/photo/1016833934/q%3D80_m%3D2000/v2?sig=2be2ae02913e8cc54e44fe46ef072be151133ccbdbe4cd6d41c22a7da84019ae',
     type: 'Project',
     title: 'IOW Complaint Management System',
