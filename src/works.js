@@ -15,7 +15,7 @@ const works = [
   },
   {
     image:
-      'https://drive.google.com/file/d/11NcpFgPse1Ied33ztVGXydAdaVY8NzWi/preview',
+      'https://res.cloudinary.com/dfoxozwkm/image/upload/v1660027097/me-ta5r/genesis_ohknz3.png',
     type: 'Project',
     title: 'GENESIS',
     desc: 'A website for the annual Tech Fest of IEEE MUJ. Genesis is the largest tech fest of Manipal University Jaipur.',
@@ -29,7 +29,7 @@ const works = [
   },
   {
     image:
-      'https://drscdn.500px.org/photo/1016833934/q%3D80_m%3D2000/v2?sig=2be2ae02913e8cc54e44fe46ef072be151133ccbdbe4cd6d41c22a7da84019ae',
+      'https://res.cloudinary.com/dfoxozwkm/image/upload/v1660027042/me-ta5r/iow_kxmyxr.png',
     type: 'Project',
     title: 'IOW Complaint Management System',
     desc: 'This is a Complaint Managment System build for RDSO colony, Lucknow. It is a React App with a backend based on Express and NodeJS. The Database used is MongoDB.',
@@ -71,7 +71,7 @@ const works = [
   },
   {
     image:
-      'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://res.cloudinary.com/dfoxozwkm/image/upload/v1660027040/me-ta5r/sorting_omamdd.png',
     type: 'Project',
     title: 'Algorith Visualizer',
     desc: 'A simple web based algorith visualizer made using JavaScript',
@@ -85,7 +85,7 @@ const works = [
   },
   {
     image:
-      'https://lh3.googleusercontent.com/dISES51IHB8i5rggZDYdT2biVQFElPZjKqSG6mQ9_ZTxuc6W57RQXR1xf5p9WtGuXeYpIPDNkaMBV818o3nXhpELAjvv_sAsxI7o6ir0cfOlHHkjguYRikSrQeL9BwOJ1WeMARuHH2uZ23WOpT4EiAO32xiHoSFO1tWVankVHhX1RVAmpbMIiCvWFkYwBH8oK-jN5Panv2gimp41XuMwQlNxbAXMy0FBYF95tgcdlmiOMAVgIXHBcnIHIZoIzwVX-u3LfNNMVIgeSkp3fa3LnfQ2wJjopcRBaZcXIMQXiIM3q7yQZJpnkCHKAVsVamrtOwu_1y7xMWQsvqHwm8CdujuZWzU6KdMucVdV1NmdAvz_DStnTlu2CSWTYkb9vM8LS8fc0l9h9zCAYZ5-Skbt4hEdOuS5lCiR6ccPeXsEzY950vWQMLa4CJkRlS2Ky9UiPMX3yIxpvDihr3Pp-sszjHcq7wJ-fNHf3o_Grnam37FUaShTGTzGEJIZ-4u00Y1BdEkimUqi_lvBuZMqWewkhO1f5Ba0GDmuXxPrpA0Q10hYYJzX23_Cm_AEw2KsYVBznU01pUILf-IwZWOLi3i723QgehplJyylA6T9YT91W6DnFapiCwCT-O9e4Dvow4fd9HV0fMmRPv86kNNk3OI1hdg_dpCFSG2r041FVpsh4v56UI75gjzBj_h3QMIZ4AtRvIv5dMl9SAuip0P2qU7CE8yswz2xKWoUSDB80E0tuAo7U4KHCx7Tbgvy2IPmVz2nZ5T_tpBf1RauOSxlsv1mVm_82mruhbZFyYZRsCnG8_wP6tAeQp6TRWUPbqItgK1CbdDbeKOIjQafs6AWEt8dI2dx0CKx0ymuCqSsvl9AaZaVN9B2K_F8J6UzWdwN5VilCTjyvOMUY8wsaaw30uDjCWPpow8OxF6L-JreN3lL6X3BAzM=w1205-h666-no?authuser=1',
+      'https://res.cloudinary.com/dfoxozwkm/image/upload/v1660027041/me-ta5r/pokedex_img_ixwpbt.png',
     type: 'Project',
     title: 'Pokedex',
     desc: 'A webapp created to catalog information regarding the various species of Pokémon featured in the Pokémon video game, anime and manga series.',
