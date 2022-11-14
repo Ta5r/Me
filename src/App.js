@@ -52,7 +52,7 @@ function App() {
               </code>
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-              <Link href="https://drive.google.com/file/d/1i54DpAEZ13BM_YryI-fudpjf8fZ1KQbh/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/190OJIXilhaLfEOihcXIvHgxG9qwj9nny/view?usp=share_link">
                 <Button
                   rounded={'full'}
                   bg={'blue.400'}
