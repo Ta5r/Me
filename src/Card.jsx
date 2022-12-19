@@ -4,12 +4,9 @@ import {
   Heading,
   Text,
   Stack,
-  Avatar,
   Link,
   Button,
   Badge,
-  Grid,
-  GridItem,
   SimpleGrid,
   useColorModeValue,
 } from '@chakra-ui/react';
@@ -20,11 +17,8 @@ export default function Card(props) {
   const image = props.image;
   const type = props.type;
   const desc = props.desc;
-  const auth_name = props.auth_name;
-  const auth_img = props.auth_img;
   const link = props.link;
   const linkGH = props.linkGH;
-  const date = props.date;
   console.log(linkGH);
   var tags = props.tags;
   var tag = tags.split(',');
@@ -36,9 +30,9 @@ export default function Card(props) {
         minW={'300px'}
         w={'full'}
         bg={useColorModeValue('white', 'gray.900')}
-        boxShadow={'2xl'}
+        boxShadow={'xl'}
         rounded={'md'}
-        p={6}
+        p={5}
         overflow={'hidden'}
       >
         <Box
@@ -54,25 +48,29 @@ export default function Card(props) {
           backgroundRepeat="no-repeat"
         />
         <Stack>
+            <div className="proj_stack">
           <Text
             color={'green.500'}
             textTransform={'uppercase'}
             fontWeight={800}
-            fontSize={'sm'}
+            fontSize={"15"}
             letterSpacing={1.1}
-          >
+            >
             {status}-{type}
           </Text>
           <Heading
             color={useColorModeValue('gray.700', 'white')}
-            fontSize={'2xl'}
+            pt={'0.3rem'}
+            fontSize={'lg'}
+            // fontSize={'2xl'}
             fontFamily={'body'}
           >
             {title}
           </Heading>
-          <Text color={'gray.500'} pt={'1rem'}>
+          <Text color={'gray.500'} pt={'1rem'} fontSize={'md'}>
             {desc}
           </Text>
+          </div>
         </Stack>
         <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
           <SimpleGrid columns={[2, 2, 2, 3]} spacing={'1rem'}>
@@ -84,13 +82,6 @@ export default function Card(props) {
               )
             )}
           </SimpleGrid>
-        </Stack>
-        <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
-          <Avatar src={auth_img} alt={'Author'} />
-          <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-            <Text fontWeight={600}>{auth_name}</Text>
-            <Text color={'gray.500'}>{date}</Text>
-          </Stack>
         </Stack>
         <Stack mt={8} direction={'row'} spacing={4}>
           <Link href={linkGH}>

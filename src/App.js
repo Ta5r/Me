@@ -5,6 +5,7 @@ import {
   Stack,
   Flex,
   Button,
+  Box,
   Image,
   Link,
   Heading,
@@ -86,7 +87,9 @@ function App() {
           />
         </Flex>
       </Stack>
+      <Box px={"5rem"}>
       <Projects />
+      </Box>
       <Testimonials />
       <Contact />
     </ChakraProvider>
