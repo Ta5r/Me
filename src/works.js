@@ -1,7 +1,7 @@
 const works = [
   {
     image:
-      'hhttps://res.cloudinary.com/dfoxozwkm/image/upload/v1682315642/travel-buddy_g2xk8y.jpg',
+      'https://res.cloudinary.com/dfoxozwkm/image/upload/v1682315642/travel-buddy_g2xk8y.jpg',
     type: 'Project',
     title: 'TravelBuddy',
     desc: 'An exclusive platform for the people of MUJ. It provides an easy and accessible way to pool vehicles and get co-passengers for the go.',
