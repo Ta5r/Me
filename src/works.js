@@ -1,6 +1,17 @@
 const works = [
   {
     image:
+      'hhttps://res.cloudinary.com/dfoxozwkm/image/upload/v1682315642/travel-buddy_g2xk8y.jpg',
+    type: 'Project',
+    title: 'TravelBuddy',
+    desc: 'An exclusive platform for the people of MUJ. It provides an easy and accessible way to pool vehicles and get co-passengers for the go.',
+    link: 'https://muj-test.vercel.app/',
+    linkGH: 'https://github.com/Ta5r/MUJCarPool',
+    tags: 'React,ChakraUI,FASTAPI',
+    status: 'completed',
+  },
+  {
+    image:
       'https://drscdn.500px.org/photo/286129421/q%3D80_m%3D2000_k%3D1/v2?sig=db63a820f92f9491737fc0492d8ff2fe334513565c2099430f0da9b1a1b5bf34',
     type: 'Project',
     title: 'Auction',
