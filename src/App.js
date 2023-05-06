@@ -53,7 +53,7 @@ function App() {
               </code>
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                <Link href="https://drive.google.com/file/d/1y4RElEWrlgO6EscI1-JwZ1Wd-BD81wN1/view?usp=share_link">
+                <Link href="https://drive.google.com/file/d/1uOUWzWM7OCpQEOs8zEDYPdGcly7aS0qb/view?usp=share_link">
                   
                 <Button
                   rounded={'full'}
@@ -63,7 +63,7 @@ function App() {
                     bg: 'blue.500',
                   }}
                 >
-                  Download CV
+                  View CV
                 </Button>
               </Link>
               {/* <Link href="/contact"> */}
