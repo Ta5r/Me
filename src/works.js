@@ -7,7 +7,7 @@ const works = [
     desc: 'An exclusive platform for the people of MUJ. It provides an easy and accessible way to pool vehicles and get co-passengers for the go.',
     link: 'https://muj-test.vercel.app/',
     linkGH: 'https://github.com/Ta5r/MUJCarPool',
-    tags: 'React,ChakraUI,FASTAPI',
+    tags: 'React,SocketIO,FASTAPI',
     status: 'completed',
   },
   {
