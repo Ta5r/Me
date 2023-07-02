@@ -1,6 +1,17 @@
 const works = [
   {
     image:
+      'https://asset.cloudinary.com/dfoxozwkm/460e57d3062700627cd9d540db5faefe',
+    type: 'Project',
+    title: 'Rabbit-MQ',
+    desc: 'My project involved implementing a microservice architecture using RabbitMQ for order placement and notifications.',
+    link: 'https://github.com/Ta5r/message-queue',
+    linkGH: 'https://github.com/Ta5r/message-queue',
+    tags: 'RabbitMQ,Docker,NodeJS',
+    status: 'completed',
+  },
+  {
+    image:
       'https://res.cloudinary.com/dfoxozwkm/image/upload/v1682315642/travel-buddy_g2xk8y.jpg',
     type: 'Project',
     title: 'TravelBuddy',
