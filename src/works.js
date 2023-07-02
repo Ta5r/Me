@@ -1,7 +1,7 @@
 const works = [
   {
     image:
-      'https://asset.cloudinary.com/dfoxozwkm/460e57d3062700627cd9d540db5faefe',
+      'https://res.cloudinary.com/dfoxozwkm/image/upload/v1682315642/travel-buddy_g2xk8y.jpg',
     type: 'Project',
     title: 'Rabbit-MQ',
     desc: 'My project involved implementing a microservice architecture using RabbitMQ for order placement and notifications.',
